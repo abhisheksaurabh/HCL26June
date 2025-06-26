@@ -1,4 +1,4 @@
-https://chatgpt.com/c/685cfc0c-437c-8004-9c60-7e78583c9d59
+
 1.Data Model:
 1.1 Staff:
 
