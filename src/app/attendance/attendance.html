@@ -1,0 +1,48 @@
+
+<table class="table table-striped table-bordered">
+    <thead>
+        <tr>
+            <td>ID</td>
+            <td>Name</td>
+            <td>Role</td>
+            <td>Skills</td>
+            <td>Preferred Shift</td>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let staff of staffs" (click)="openModalStaff(staff)">
+            <td>{{staff.id}}</td>
+            <td>{{staff.name}}</td>
+            <td>{{staff.role}}</td>
+            <td>{{staff.skills}}</td>
+            <td>{{staff.preferredShift}}</td>
+        </tr>
+    </tbody>
+</table>
+
+<div class="modal fade" id="detailModal" tabindex="-1" aria-labelledby="modalTitle" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="modalTitle">Staff Details</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body" *ngIf="selectedRow">
+        <p><strong>ID:</strong> {{ selectedRow.id }}</p>
+        <p><strong>Name:</strong> {{ selectedRow.name }}</p>
+        <p><strong>Role:</strong> {{ selectedRow.role }}</p>
+        <p><strong>Preferred Shift Time:</strong> {{ selectedRow.preferredShift }}</p>
+        <p><strong>Present:</strong> <input type="checkbox" class="form-check-input" [(ngModel)]="IsPresent">
+        <p><strong>Alloted Shift Time:</strong>
+        <select name="shiftTime" id="shiftTime" [(ngModel)]="allotedShiftTime">
+            <option value="Morning">Morning</option>
+            <option value="AfterNoon">AfterNoon</option>
+            <option value="Night">Night</option>
+        </select>
+      </div>
+      <div class="modal-footer">
+        <button type="button" (click)="saveData()" class="btn btn-primary">Save</button>
+      </div>
+    </div>
+  </div>
+</div>

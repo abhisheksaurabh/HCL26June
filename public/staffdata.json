@@ -1,0 +1,82 @@
+[
+  {
+    "id": "HS001",
+    "name": "Dr. Alice Morgan",
+    "role": "Doctor",
+    "skills": "Cardiology",
+    "preferredShift": "Morning",
+    "unavailableDays": ["Sunday"]
+  },
+  {
+    "id": "HS002",
+    "name": "Nurse Ben Carter",
+    "role": "Nurse",
+    "skills": "Pediatrics",
+    "preferredShift": "Night",
+    "unavailableDays": ["Wednesday"]
+  },
+  {
+    "id": "HS003",
+    "name": "Dr. Clara Zheng",
+    "role": "Surgeon",
+    "skills": "General Surgery",
+    "preferredShift": "AfterNoon",
+    "unavailableDays": ["Friday"]
+  },
+  {
+    "id": "HS004",
+    "name": "James Ortiz",
+    "role": "Technician",
+    "skills": "Radiology",
+    "preferredShift": "Morning",
+    "unavailableDays": ["Saturday"]
+  },
+  {
+    "id": "HS005",
+    "name": "Sarah Kim",
+    "role": "Pharmacist",
+    "skills": "Inventory",
+    "preferredShift": "AfterNoon",
+    "unavailableDays": ["Monday"]
+  },
+  {
+    "id": "HS006",
+    "name": "Dr. Rajiv Patel",
+    "role": "Doctor",
+    "skills": "Neurology",
+    "preferredShift": "Morning",
+    "unavailableDays": ["Tuesday"]
+  },
+  {
+    "id": "HS007",
+    "name": "Emily Watson",
+    "role": "Nurse",
+    "skills": "ICU Care",
+    "preferredShift": "Night",
+    "unavailableDays": ["Thursday"]
+  },
+  {
+    "id": "HS008",
+    "name": "Tom Lee",
+    "role": "Lab Technician",
+    "skills": "Blood Tests",
+    "preferredShift": "AfterNoon",
+    "unavailableDays": ["Sunday"]
+  },
+  {
+    "id": "HS009",
+    "name": "Nancy Adams",
+    "role": "Receptionist",
+    "skills": "Scheduling",
+    "preferredShift": "Morning",
+    "unavailableDays": ["Saturday"]
+  },
+  {
+    "id": "HS010",
+    "name": "Dr. Hassan Ali",
+    "role": "Doctor",
+    "skills": "Orthopedics",
+    "preferredShift": "Night",
+    "unavailableDays": ["Monday"]
+  }
+]
