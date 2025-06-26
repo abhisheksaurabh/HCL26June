@@ -1,0 +1,10 @@
+── models/
+   │   ├── staff.js
+   │   ├── shift.js
+   │   └── attendance.js
+   ├── routes/
+   │   ├── staffRoutes.js
+   │   ├── shiftRoutes.js
+   │   └── attendanceRoutes.js
+   ├── server.js
+   └── config.js
